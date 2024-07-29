@@ -1,0 +1,106 @@
+/* Struct */
+
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.detail{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4px;
+  width: 20%;
+  background-color: #1A73E8;
+}
+
+.top-section{
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.headline{
+  margin: 16px;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+/* Geral */
+
+body{
+  background-color: #F8F8F8;
+}
+
+.img{
+  display: block;
+  max-width: 100%;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.paragraph{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.subtitle{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.sub-headline{
+  margin-bottom: 48px;
+}
+
+/* Text */
+
+.text-center{
+  text-align: center;
+}
+
+.poppins{
+  font-family: 'Poppins', serif;
+}
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+.normal{
+  font-weight: 400;
+}
+
+.semibold{
+  font-weight: 500;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.upper{
+  text-transform: uppercase;
+}
+
+/* Collors */
+
+.text-yellow{
+  color: #FBBC04;
+}
+
+.text-blue{
+  color: #1A73E8;
+}
+
+.text-red{
+  color: #EA4335;
+}
