@@ -11,6 +11,7 @@
   margin-right: auto;
   height: 4px;
   width: 20%;
+  border-radius: 4px;
   background-color: #1A73E8;
 }
 
@@ -48,6 +49,16 @@ body{
   line-height: 1.5;
 }
 
+.footer-paragraph{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
 .subtitle{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -55,6 +66,62 @@ body{
 
 .sub-headline{
   margin-bottom: 48px;
+}
+
+label{
+  display: block;
+  font-family: 'Poppins', serif;
+  font-weight: 500;
+}
+
+input, textarea{
+  display: block;
+  margin-top: 8px;
+  width: calc(100% - 20px);
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.btn-primary{
+  width: 50%;
+  display: block;
+  padding: 8px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1A73E8;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover{
+  background-color: #155BB2;
+}
+
+.btn-send-email{
+  display: block;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FBBC04;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: 0.2s ease;
+}
+
+.btn-send-email:hover{
+  background-color:#E0A903;
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 /* Text */
@@ -103,4 +170,8 @@ body{
 
 .text-red{
   color: #EA4335;
+}
+
+.text-white{
+  color: #FFFFFF;
 }

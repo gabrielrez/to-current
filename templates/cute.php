@@ -18,7 +18,7 @@
       <span class="detail"></span>
     </header>
     <section class="top-section">
-      <h2 class="subtitle">Bom dia!</h2>
+      <h2 class="subtitle">Bom dia! 👋</h2>
       <p class="paragraph italic">"Então, estou à frente do meu tempo? Tudo bem, me ligue quando você se atualizar."</p>
     </section>
     <main>
@@ -47,6 +47,14 @@
       </div>
     </main>
   </div>
+
+  <footer>
+    <p class="footer-paragraph">To Current © Direitos reservados.</p>
+  </footer>
 </body>
 
 </html>
+
+<script>
+
+</script>
