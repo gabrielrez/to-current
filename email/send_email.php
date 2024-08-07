@@ -227,13 +227,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'gabrielrezcpessoa@gmail.com';
-    $mail->Password = 'ipud vlsf xwti krcq';
+    $mail->Username = 'newsletter.to.current@gmail.com';
+    $mail->Password = 'kwiv emmm kman uvnm';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
     // Recipients
-    $mail->setFrom('gabrielrezcpessoa@gmail.com', 'Gabriel');
+    $mail->setFrom('newsletter.to.current@gmail.com', 'To Current');
     $mail->addAddress($recipient);
 
     // Attachments
