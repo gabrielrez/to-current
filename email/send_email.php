@@ -7,6 +7,7 @@ require '../vendor/autoload.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $recipient = $_POST['recipient'];
+  $headerText = $_POST['special-text'];
   $headlineTitles = isset($_POST['headline_titles']) ? $_POST['headline_titles'] : [];
   $headlineSubtitles = isset($_POST['headline_subtitles']) ? $_POST['headline_subtitles'] : [];
   $headlineParagraphs = isset($_POST['headline_paragraphs']) ? $_POST['headline_paragraphs'] : [];
@@ -176,7 +177,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </header>
         <section class='top-section'>
           <h2 class='subtitle'>Bom dia! 👋</h2>
-          <p class='paragraph italic'>\"Então, estou à frente do meu tempo? Tudo bem, me ligue quando você se atualizar.\"</p>
+          <q class='paragraph italic'>$headerText</q>
         </section>
         <main>";
 

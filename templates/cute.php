@@ -19,7 +19,7 @@
     </header>
     <section class="top-section">
       <h2 class="subtitle">Bom dia! 👋</h2>
-      <p class="paragraph italic">"Então, estou à frente do meu tempo? Tudo bem, me ligue quando você se atualizar."</p>
+      <q class="paragraph italic" id="special-text">Então, estou à frente do meu tempo? Tudo bem, me ligue quando você se atualizar.</q>
     </section>
     <main>
       <div class="headline">

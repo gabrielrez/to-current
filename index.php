@@ -17,6 +17,8 @@
       <div class="top-section">
         <label class="poppins semibold" for="recipient">Recipient Email:</label>
         <input type="email" id="recipient" name="recipient" required><br>
+        <label class="poppins semibold" for="special-text">Header Text</label>
+        <input type="text" id="special-text" name="special-text" required><br>
       </div>
 
       <div id="headlines-container"></div>
